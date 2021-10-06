@@ -1,0 +1,42 @@
+
+#services{
+    flex-direction: column;
+
+}
+#services .box{
+    margin: 30px 1px;
+
+}
+
+.services-container{
+    margin-top: 15px;
+}
+
+#client{
+   
+    flex-wrap: wrap;
+}
+
+#client-section::before{
+    
+    height: 70%;
+    
+}
+
+@media (max-width:504px){
+	#navbar{
+    display: block;
+	width: 100%;
+	margin: auto;
+}
+#logo img{
+	display: block;
+	width: 70px;
+	margin: auto;
+}
+#navbar ul{
+	margin-top: 10px;
+}
+
+}
+
